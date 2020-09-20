@@ -4,43 +4,44 @@
     padding: 0;
 }
 
-
-h1 {
-    font-family: serif;
-    color: red;
-}
-
-#page-title {
-    font-family: Arial, Helvetica, sans-serif;
-    color: blue;
-}
-
-.title {
-    font-size: 10px;
+.page-header__title {
+    font-size: 20px;
     color: green;
+    margin: 10px;
 }
 
-#main-nav {
-    margin-top: 10px;
+.main-nav {
+    margin: 10px;
     list-style-type: none;
     padding-left: 0;
 
 }
-#main-nav li {
+.main-nav__li {
     display: inline-block;
+    margin: 5px;
 }
 
-#main-nav a {
+.main-nav__enlace {
     color: white;
     background-color: green;
-    padding: 8px;
+    padding: 5px 30px;
     border-radius: 5px;
     text-decoration: none;
 
 }
-#main-nav .blog {
-    background-color: greenyellow;
+
+.main-nav__enlace:hover {
+    background-color: rgb(0, 83, 0);
 }
+
+.main-nav__enlace--blog {
+    background-color: red;
+}
+
+.main-nav__enlace--blog:hover {
+    background-color: rgb(199, 0, 0);
+}
+
 
 
 
