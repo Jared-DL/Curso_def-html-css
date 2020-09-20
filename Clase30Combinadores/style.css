@@ -1,0 +1,3 @@
+h2 + p {        /*Se aplica el esilo a los "p" que esten debajo de h2*/
+    color: red;
+}
