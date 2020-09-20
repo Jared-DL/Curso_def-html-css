@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+
+}
+
+.header__title {
+    font-size: 2.5rem;
+    background-color: hotpink;
+    margin: 0px auto;
+}
+
+.contenedor-main {
+    padding: 20px;
+    font-size: 1.6Rem;
+    width: 80%;
+    height: 100%;
+    min-width: 483px;
+    margin: 0 auto;
+    background-color: green;
+}
