@@ -1,0 +1,27 @@
+.div1 {
+    background-color: crimson;
+}
+
+.div2 {
+    background-color: darkcyan;
+}
+
+.p1 {
+    background-color: forestgreen;
+}
+
+.nav {
+    padding: 20px;
+    background-color: forestgreen;
+}
+
+
+.nav__el {
+    text-decoration: none;
+    background-color:darkcyan;
+    border: black 2px solid;
+    border-radius: 5px;
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+}
