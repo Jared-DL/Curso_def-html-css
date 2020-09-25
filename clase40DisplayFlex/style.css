@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.box {
+    border: black solid 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box__1 {
+    background-color: red;
+}
+
+.box__2 {
+    background-color: aliceblue;
+}
+
+.box__3 {
+    background-color: tomato;
+}
+
+.box__4 {
+    background-color: darkblue;
+}
+
+.box__5 {
+    background-color: firebrick;
+}
+
+.box__6 {
+    background-color: khaki;
+}
+
+
+.box--modif {
+    width: 10rem;
+    height: 10rem;
+}
