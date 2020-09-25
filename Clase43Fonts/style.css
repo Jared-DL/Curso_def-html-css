@@ -1,0 +1,47 @@
+:root {
+    --main-color: rgb(54, 54, 194);
+    --secondary-color: rgb(184, 28, 28);
+    --text-color: rgb(19, 19, 19);
+    --font-size-h1: 3rem; 
+    --font-size-p: 1.8rem ;
+    --font-family: 'Indie Flower', cursive;
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+h1 {
+    color: var(--main-color);
+    font-size: var(--font-size-h1);
+    font-family: 'Indie Flower', cursive;
+}
+
+p {
+    color: var(--text-color);
+    font-size: var(--font-size-p);
+    font-family: 'Indie Flower', cursive;
+}
+
+.header {
+    height: 33.33vh;
+    background-color: var(--main-color);
+}
+
+main {
+    height: 33.33vh;
+    padding: 30px;
+}
+
+.footer {
+    height: 33.33vh;
+    background-color: var(--secondary-color);
+}
