@@ -1,5 +1,13 @@
-.caja-3, .caja-4{
+.caja-2, .caja-3{
     height: 160px;
-    width: 50%;
+    width: 100%;
     min-width: 200px;
     }
+.caja-4 {
+    width: 50%;
+    height: 320px;
+}
+.contenedor {
+    flex-wrap: wrap;
+    width: 50%;
+}
