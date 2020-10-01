@@ -38,34 +38,3 @@ main {
     height: 160px;
 }
 
-@media (min-width: 576px) {
-    .caja-3, .caja-4{
-    height: 160px;
-    width: 50%;
-    min-width: 200px;
-    }
-}
-
-@media (min-width: 768px) {
-    .caja-2 {
-        width: 30%;
-    }
-    .caja-3 {
-        width: 70%;
-    }
-    .caja-4 {
-        width: 50%;
-    }
-    .caja-5 {
-        width: 50%;
-    }
-}
-
-@media (min-width: 1200px) {
-    main {
-        width: 1200px;
-        margin: 0 auto;
-    }
-
-
-}
